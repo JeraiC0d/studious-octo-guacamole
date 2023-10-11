@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="weather-app">
+      <form class="search-form" id="search-form">
+        <input 
+        type="Search"
+        placeholder="Enter City"
+        autofocus="on"
+        autocomplete="off"
+        id="search-city"
+        />
+      </div>
+      
+        <button 
+        class="btn search-button"
+        id="search-button-searchCity">
+        search
+    </button>
+      </form>
+    <div class="currentDate", "currentTime"><h2><h2/></div>
+        <h1>Ipswich, Suffolk</h1>
+
+      <h3 class="currentTemp">
+          ☀️<span id="temperature">20</span>
+        <span class="temperatureUnits">
+          C° / F°
+        </span>
+      </h3>
+       
+      <div class="grid-container">
+          <div class="card">
+                <h6 class="card-title">Sun</h6>
+                <p class="card-icon">⛅️/🌙</p>
+                <p class="card-temp">22°/23°</p>
+            
+            </div>                        
+    
+            <div class="card">
+                <h6 class="card-title">Mon</h6>
+                <p class="card-icon"> ️☀/☁️</p>
+                <p class="card-temp">15°/21°</p>
+                
+              </div>
+      
+            <div class="card">
+             
+                <h6 class="card-title">Tue</h6>
+                <p class="card-icon">⛅️/☁️</p>
+                <p class="card-temp">20°/23°</p>
+              
+              </div>
+   
+            <div class="card">
+           
+                <h6 class="card-title">Wed</h6>
+                <p class="card-icon"> ⛅️/☁️</p>
+                <p class="card-temp">21°/22°</p>
+               
+              </div>
+        
+            <div class="card">
+             
+                <h6 class="card-title">Thu</h6>
+                <p class="card-icon"> ⛅️/🌙</p>
+                <p class="card-temp">21°/20°</p>
+               
+              </div>
+
+            <div class="card">
+              
+                <h6 class="card-title">Fri</h6>
+                <p class="card-icon"> 🌤️/☁</p>
+                <p class="card-temp">30°/26°</p>
+              
+              </div>
+      </div>
+    </div>
+    <script src="src/index.mjs"></script>
+  </body>
+</html>
